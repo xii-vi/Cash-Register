@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register Manager</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <div>
+            <h1 class="heading">Cash Register Manager</h1>
+            <p class="description">Enter the bill amount and cash given by the customer and know minimum number of notes
+                to return.</p>
+            <label for="bill-amount" class="input-label">Bill Amount</label>
+            <input id="bill-amount" class="input" type="number">
+            <label for="cash-given" class="input-label">Cash Given</label>
+            <input id="cash-given" type="number" class="input">
+            <button id="checkBtn">Check</button>
+            <p id="error-message"></p>
+            <table class="change-table">
+                <caption>Cash Returned</caption>
+                <tr>
+                    <th>No. of Notes</th>
+                    <td class="cashtoreturn"></td>
+                    <td class="cashtoreturn"></td>
+                    <td class="cashtoreturn"></td>
+                    <td class="cashtoreturn"></td>
+                    <td class="cashtoreturn"></td>
+                    <td class="cashtoreturn"></td>
+                    <td class="cashtoreturn"></td>
+                </tr>
+                <tr>
+                    <th> Note </th>
+                    <td>2000</td>
+                    <td>500</td>
+                    <td>100</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <ul class="footer-list">
+
+            <a class="footer-h" href="https://www.instagram.com/xii.vi.mcmxcvii"><img alt="instagram"
+                    src="icons/instagram.svg"></a>
+
+            <a class="footer-h" href="https://twitter.com/jzzrht"><img alt="twitter" src="icons/twitter.svg"></a>
+
+            <a class="footer-h" href="https://github.com/xii-vi"><img alt="github" src="icons/github.svg"></a>
+
+            <a class="footer-h" href="https://www.linkedin.com/in/rohit-abhishek"><img alt="linkedin"
+                    src="icons/linkedin.svg"></a>
+
+        </ul>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
